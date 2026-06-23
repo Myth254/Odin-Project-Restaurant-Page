@@ -1,0 +1,183 @@
+/* styles.css */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+    padding: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header & navigation */
+header {
+    border-bottom: 2px solid #111111;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+#main-nav {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+#main-nav button {
+    background: none;
+    border: 2px solid #111111;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #111111;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+#main-nav button:hover,
+#main-nav button:focus {
+    background: #111111;
+    color: #ffffff;
+}
+
+/* Main content */
+#content {
+    margin-top: 1rem;
+}
+
+/* Home page */
+.intro-section,
+.hours-section,
+.location-section {
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.intro-section p {
+    font-size: 1.1rem;
+    max-width: 70ch;
+}
+
+.hours-section ul {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.hours-section li {
+    padding: 0.2rem 0;
+    font-size: 1rem;
+}
+
+.location-section p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.5rem;
+    border-bottom: 3px solid #111111;
+    padding-bottom: 0.3rem;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Menu page */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.menu-section {
+    border-top: 1px solid #cccccc;
+    padding-top: 1.5rem;
+}
+
+.menu-section h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.menu-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.menu-item p {
+    font-size: 0.95rem;
+    color: #222222;
+    max-width: 60ch;
+    margin-bottom: 0.3rem;
+}
+
+.item-price {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.1rem;
+    background: #111111;
+    color: #ffffff;
+    padding: 0.15rem 0.8rem;
+    letter-spacing: 0.3px;
+}
+
+/* Contact page */
+#content > div > div {
+    padding: 1rem 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+#content > div > div:last-child {
+    border-bottom: none;
+}
+
+#content p {
+    margin: 0.15rem 0;
+}
+
+#content p:first-of-type {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#content p:nth-of-type(2) {
+    font-style: italic;
+    color: #333333;
+}
+
+/* Utilities & spacing */
+#content h1 {
+    margin-bottom: 1.5rem;
+}
