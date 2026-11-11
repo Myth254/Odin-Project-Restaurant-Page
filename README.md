@@ -2,6 +2,10 @@
 
 A small restaurant website for **Dishi Restaurant**, featuring Kenyan-inspired food and hospitality. The page is built with vanilla JavaScript and Webpack. Its Home, Menu, and Contact views are rendered dynamically without reloading the page.
 
+## Screenshot
+
+![Screenshot of the Dishi Restaurant Page](screenshots/restaurant.png)
+
 ## Features
 
 - Navigate between Home, Menu, and Contact views using the top navigation.
